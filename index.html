@@ -10,16 +10,7 @@
 
 <body>
     <div class="wrapper">
-        <div class="topnav">
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-            <a href="#footer">Footer</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-          </div>
         
-
         <figure>
             <img id="Photo" src="images/1.jpg" alt="Photo" width="360" height="360"/>
         </figure>
@@ -47,6 +38,27 @@
 
 <div class="code">
     <p class="code-text">Code example:</p>
+    <pre class="js-exec" style="max-height: 600px;"><code class="javascript hljs"><span class="hljs-comment">// program to find the factorial of a number</span>
+      <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">factorial</span>(<span class="hljs-params">x</span>) </span>{
+      
+          <span class="hljs-comment">// if number is 0</span>
+          <span class="hljs-keyword">if</span> (x === <span class="hljs-number">0</span>) {
+              <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;
+          }
+      
+          <span class="hljs-comment">// if number is positive</span>
+          <span class="hljs-keyword">else</span> {
+              <span class="hljs-keyword">return</span> x * factorial(x - <span class="hljs-number">1</span>);
+          }
+      }
+      
+      <span class="hljs-keyword">const</span> num = <span class="hljs-number">3</span>;
+      
+      <span class="hljs-comment">// calling factorial() if num is non-negative</span>
+      <span class="hljs-keyword">if</span> (num &gt; <span class="hljs-number">0</span>) {
+          <span class="hljs-keyword">let</span> result = factorial(num);
+          <span class="hljs-built_in">console</span>.log(<span class="hljs-string">`The factorial of <span class="hljs-subst">${num}</span> is <span class="hljs-subst">${result}</span>`</span>);
+      }</code></pre>
     
 </div>
 
