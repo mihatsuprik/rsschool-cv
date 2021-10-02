@@ -1,0 +1,125 @@
+body{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+
+.wrapper{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#FIO{
+    font-size: 40px;
+}
+#Photo{
+    float:left;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+#telephone-icon{
+    padding-top: 50px;
+    
+}
+
+aside {
+    margin-top: 50px;
+    width: 40%;
+    float: right;
+    font-style: italic;
+    color: #29627e;
+}
+
+#email-icon{
+    padding-top: 50px;
+    
+}
+
+#vk-icon{
+    padding-top: 50px;
+    
+}
+
+#link-telephone{
+    font-size: 30px;
+   
+}
+#link-email{
+    font-size: 30px;
+   
+}
+#link-vk{
+    font-size: 30px;
+   
+   
+}
+
+
+#ul{
+    display: inline-block;
+    margin-top: 130px;
+    font-size: 20px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    display: inline-block;
+    margin-top: 80px;
+}
+
+#Github-link{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-right: 80px;
+    margin-left: 50px;
+}
+
+#year{
+    font-size: 26px;
+    display: inline-block;
+    margin-right: 80px;
+}
+
+#rss{
+    display: inline-block;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 37px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+  .code{
+
+  box-sizing: border-box;
+  padding: 16px;
+  border-radius: 4px;
+  border: 1px solid #d3dce6;
+  background-color: #383b40;
+  margin-bottom: 16px;
+  overflow: auto;
+  font-family: droid sans mono,inconsolata,menlo,consolas,bitstream vera sans mono,courier,monospace;
+  font-size: 14px;
+  line-height: 20px;
+  color: #d5d5d5;
+  max-width: 1000px;
+  font-size: 25px;
+  font-weight: 200px;
+ margin-top: 20px;;
+  }
